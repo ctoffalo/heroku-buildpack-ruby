@@ -813,12 +813,9 @@ BUNDLE
         env_vars["BUNDLER_LIB_PATH"]             = "#{bundler_path}" if ruby_version.ruby_version == "1.8.7"
         env_vars["BUNDLE_DISABLE_VERSION_CHECK"] = "true"
 
-        puts '**********************'
-        print '**********************'
+        puts "**********************\n"
         puts 'Ejecutando comando para revisar'
-        print 'Ejecutando comando para revisar'
-        print '**********************'
-        puts '**********************'
+        puts "**********************\n"
 
         puts "Running: #{bundle_command}"
         bundle_time = Benchmark.realtime do
