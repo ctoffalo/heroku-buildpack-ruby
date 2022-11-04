@@ -814,7 +814,7 @@ BUNDLE
         env_vars["BUNDLE_DISABLE_VERSION_CHECK"] = "true"
 
         puts "**********************\n"
-        puts 'Ejecutando comando para revisar'
+        puts 'Ejecutando comando para revisar desde un branch'
         puts "**********************\n"
 
         puts "Running: #{bundle_command}"
