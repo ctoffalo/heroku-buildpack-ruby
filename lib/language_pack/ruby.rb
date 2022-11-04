@@ -1083,7 +1083,7 @@ params = CGI.parse(uri.query || "")
   end
 
   def run_assets_precompile_rake_task
-
+    puts 'Printing assets precompile'
     precompile = rake.task("assets:precompile")
     return true unless precompile.is_defined?
 
